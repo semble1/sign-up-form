@@ -2,3 +2,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: flex;
+}
+
+.heading {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+form {
+    box-shadow: 10px 5px 5px tomato;
+    border: 1px solid black;
+}
