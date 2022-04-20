@@ -38,6 +38,7 @@ a:hover {
     background: linear-gradient(rgb(0,0,0,0), rgba(0,0,0,0.5)),
                 url('assets/background.jpg');
     background-size: cover;
+    background-position: bottom;
 }
 .left, .right {
     display: flex;
@@ -83,8 +84,11 @@ label {
 }
 .input-container.password i {
     position: absolute;
-    top: 42px;
+    top: 38px;
     right: 16px;
+}
+.input-container.password i:hover{
+    cursor: pointer;
 }
 .checkbox-container input {
     position: absolute;
